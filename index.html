@@ -4,31 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de Ponto</title>
+    <!-- ?Links -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- ?CSS -->
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <!-- ?JavaScript -->
+    <script src="JS/script.js" defer></script>
 </head>
 <body>
-    <!-- TODO: Cabeçalho -->
-    <header>
-        <h1>Controle dos funcionários</h1>
-    </header>
-    <!-- TODO: Conteudo principal -->
-    <main>
-        <!-- ?Primeira seção -->
-        <section>
-
-        </section>
-    </main>
-    <!-- TODO: Barra lateral direita -->
-    <aside>
-        <!-- ?Barra de navegação -->
-        <nav>
-            
-        </nav>
-    </aside>
-    <!-- TODO: Rodapé -->
-    <footer>
-
-    </footer>
+    <div class="container">
+        <!-- TODO: Cabeçalho -->
+        <header>
+            <h1>Controle de Ponto</h1>
+            <nav>
+                <!-- *Adicionar Setores -->
+                <div id="addSectorContainer">
+                    <input type="text" id="sectorContent" placeholder="Cadastrar sector">
+                    <button class="addSection"><i class='bx bx-check'></i></button>
+                </div>
+                <div id="searchContainer">
+                    <input type="text" id="searchInput" placeholder="Busque um sector">
+                    <i class='bx bx-search-alt-2'></i>
+                </div>
+                <!-- *Filtro -->
+                <div id="filter">
+                    <h4>Filtrar:</h4>
+                    <select id="filterSelect">
+                        <option value="all">Todos</option>
+                        <option value="done">Feitos</option>
+                        <option value="todo">A fazer</option>
+                    </select>
+                </div>
+            </nav>
+        </header>
+        <!-- TODO: Main -->
+        <main>
+            <!-- *Setores creados -->
+            <section>
+                <div id="sectorContainer">
+                    <div class="sector">
+                        <h2>Jardinagem</h2>
+                        <ul class="funcionairos">
+                            <li>Lenilson</li>
+                            <li>Julio Nestor</li>
+                            <li>Wilyam</li>
+                            <li>Celio</li>
+                        </ul>
+                    </div>
+                    <div class="sector">
+                        <h2>Jardinagem</h2>
+                        <ul class="funcionairos">
+                            <li>Lenilson</li>
+                            <li>Julio Nestor</li>
+                            <li>Wilyam</li>
+                            <li>Celio</li>
+                        </ul>
+                    </div>
+                    <div class="sector">
+                        <h2>Jardinagem</h2>
+                        <ul class="funcionairos">
+                            <li>Lenilson</li>
+                            <li>Julio Nestor</li>
+                            <li>Wilyam</li>
+                            <li>Celio</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- TODO: Footer -->
+        <footer>
+            <h2>Footer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus rem officiis velit asperiores, quos nostrum explicabo neque perspiciatis modi deserunt eligendi consequatur atque molestias? Iusto laudantium aliquam esse a!</p>
+        </footer>
 </body>
 </html>
