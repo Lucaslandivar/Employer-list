@@ -1,8 +1,13 @@
 /* TODO: Header */
 header {
     flex: 1 1 100vw;
-    background-color: #BCA37F;
+    background-color: #113946;
+    color: aliceblue;
     height: 100px;
+}
+
+header h1 {
+    padding: 1rem;
 }
     
 /* *Nav */
@@ -11,7 +16,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    background-color: #EAD7BB;
+    background-color: #113946;
 }
 
 #addSectorContainer {

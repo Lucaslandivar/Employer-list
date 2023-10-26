@@ -28,32 +28,15 @@ input {
     border-radius: 4px;
 }
    
-/* TODO: Main */
-main {
-    flex: 20 1 500px;
-    height: calc(100vh - 224px);
-    flex-wrap: wrap;
-    overflow: auto;
-    background-color: #EAD7BB;
-}
-    
-main section {
-    width: 100%;
-    margin: 10px;
-}
-
-.sector {
-    background-color: #BCA37F;
-    margin-bottom: 15px;
-    width: 500px;
-    border-radius: 5px;
+ul li {
+    list-style: none;
 }
 
 /* TODO: Footer */
 footer {
     flex: 1 1 100vw;
     height: 100px;
-    background-color: #113946;
+    background-color: #BCA37F;
     color: #FFF2D8;
 }
     

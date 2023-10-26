@@ -1,0 +1,36 @@
+/* TODO: Main */
+main {
+    flex: 20 1 500px;
+    height: calc(100vh - 224px);
+    flex-wrap: wrap;
+    overflow: auto;
+    background-color: #FFF2D8;
+}
+    
+main section {
+    width: 100%;
+    margin: 10px;
+}
+
+.sector {
+    background-color: #EAD7BB;
+    margin-bottom: 15px;
+    width: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.sector:hover {
+    background-color: #BCA37F;
+    width: 520px;
+    transition: 1s;
+}
+
+.sector h2 {
+    margin-left: 30px;
+}
+
+.funcionarios {
+    margin-left: 15px;
+}
